@@ -1,2 +1,2 @@
-# CC101_c-Colipano
+# CC102
 Fundamental of programming using C++ language
