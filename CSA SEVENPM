@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	float sugarPriceUS, ricePricePound , sardinesPricepound , coffeePriceUSD , milkPriceUS ;
+	int sugarQty, coffeeQty, milkQty;
+	float riceQty,sardinesQty,totalCosttPHP, sugarCostPHP;
+	float usd = 1; php = 55.93;
+	
+	
+	cout <<"Welcome to SEVENPM Sari-Sari store" << endl;
+	//sugar
+	cout <<"Sugar:\t\t";
+	cin >> sugarQty;
+	cout <<"Sugar Price:\t\t";
+	cin >> sugarPriceUS;
+	//Rice
+	cout <<"Rice per pound:\t\t";
+	cin >> riceQty;
+	cout << "Rice price per pound:\t\t";
+	cin >> ricePricePound;
+	//sardines
+	cout <<"Sardines per pound:\t\t";
+	cin >> sardinesQty;
+	cout <<"Sardines price per pound:\t\t";
+	cin >> sardinesPricepound;
+	//coffee
+	cout <<"Coffee:\t\t";
+	cin >> coffeeQty;
+	cout << "Coffee Price:\t\t";
+	cin >> coffeePriceUSD;
+	// milk
+	cout << "Milk:\t\t";
+	cin >> milkQty;
+	cout << "Milk price:\t\t";
+	cin >> milkQty;
+	//calculation
+	
+	sugarCostPHP = (sugarQty * sugarPriceUS) / 
+	
+	
+	totalCostPHP
+	
+	
+	
+	return 0;
+}
