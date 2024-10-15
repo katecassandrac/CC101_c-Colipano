@@ -7,43 +7,53 @@ int main ()
 	float sugarPriceUS, ricePricePound , sardinesPricepound , coffeePriceUSD , milkPriceUS ;
 	int sugarQty, coffeeQty, milkQty;
 	float riceQty,sardinesQty,totalCosttPHP, sugarCostPHP;
-	float usd = 1; php = 55.93;
+	float riceCostPHP, sardinesCostPHP, coffeeCostPHP, milkCostPHP, totalCostPHP;
+	float usd = 1, php = 55.93;
 	
 	
 	cout <<"Welcome to SEVENPM Sari-Sari store" << endl;
 	//sugar
-	cout <<"Sugar:\t\t";
+	cout << ".........................." << endl;
+	cout <<"Sugar:";
 	cin >> sugarQty;
-	cout <<"Sugar Price:\t\t";
+	cout <<"Sugar Price:";
 	cin >> sugarPriceUS;
 	//Rice
-	cout <<"Rice per pound:\t\t";
+	cout << ".........................." << endl;
+	cout <<"Rice per pound:";
 	cin >> riceQty;
-	cout << "Rice price per pound:\t\t";
+	cout << "Rice price per pound:";
 	cin >> ricePricePound;
 	//sardines
-	cout <<"Sardines per pound:\t\t";
+	cout << ".........................." << endl;
+	cout <<"Sardines per pound:";
 	cin >> sardinesQty;
-	cout <<"Sardines price per pound:\t\t";
+	cout <<"Sardines price per pound:";
 	cin >> sardinesPricepound;
 	//coffee
-	cout <<"Coffee:\t\t";
+	cout << ".........................." << endl;
+	cout <<"Coffee:";
 	cin >> coffeeQty;
-	cout << "Coffee Price:\t\t";
+	cout << "Coffee Price:";
 	cin >> coffeePriceUSD;
 	// milk
-	cout << "Milk:\t\t";
+	cout << ".........................." << endl;
+	cout << "Milk:";
 	cin >> milkQty;
-	cout << "Milk price:\t\t";
+	cout << "Milk price:";
 	cin >> milkQty;
 	//calculation
+	sugarCostPHP = (sugarQty * sugarPriceUS) * php; 
+	riceCostPHP = (riceQty * ricePricePound) * php;
+	sardinesCostPHP = (sardinesQty * sardinesPricepound) * php;
+	coffeeCostPHP = (coffeeQty * coffeePriceUSD) * php;
+	milkCostPHP = (milkQty * milkPriceUS) * php;
 	
-	sugarCostPHP = (sugarQty * sugarPriceUS) / 
-	
-	
-	totalCostPHP
-	
-	
-	
+	totalCostPHP = sugarCostPHP + riceCostPHP + sardinesCostPHP + coffeeCostPHP + milkCostPHP;
+	cout << ".........................." << endl;
+	cout <<"Total cost:\n"<< totalCostPHP << endl;
 	return 0;
+	
+
 }
+
